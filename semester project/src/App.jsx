@@ -52,7 +52,7 @@ const EcommerceHome = () => {
         <div className="side-img left">
           <img src="leftpic.jpg" alt="Left Art" />
         </div>
-    <div class="content">/
+    <div class="content">
           <div className="inside">
             
             <h3 className="section-title">Explore Our Product Categories</h3>
@@ -60,10 +60,10 @@ const EcommerceHome = () => {
           </div>
          
           <div className="categories">
-            <span>Electronics</span>
-            <span>Fashion</span>
-            <span>Home</span>
-            <span>Beauty</span>
+          <button><span>Electronics</span></button>  
+          <button><span>Fashion</span></button>
+            
+            
            
        
         </div>

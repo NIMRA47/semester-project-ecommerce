@@ -180,7 +180,9 @@ body {
 
 .categories { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; margin-top: 20px; }
 
-.categories span { font-size: 12px; font-weight: 600; text-transform: uppercase; background: #f2f2f2; color: #333; padding: 6px 12px; border-radius: 6px; }
+.categories span { 
+  font-size: 12px; font-weight: 600; text-transform: uppercase;color: #333; padding: 6px 12px;
+  color: white; border-radius: 6px; }
 
 
 .side-img img { width: 100%; height: 100%; object-fit: cover; }
