@@ -1,0 +1,66 @@
+  
+        .page { min-height: 100vh; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); font-family: Arial, sans-serif; color: white; padding-bottom: 50px; }
+        
+        .nav { margin: 30px auto; background: #000; border-radius: 20px; display: flex; justify-content: space-between; align-items: center; padding: 15px 25px; max-width: 90%; }
+        .logo { width: 80px; }
+        .menubtn { background: none; border: none; color: white; font-size: 24px; cursor: pointer; }
+        .links.show { display: flex !important; flex-direction: column; position: fixed; top: 30px; left: 5%; width: 90%; background: #000; border: 1px solid white; border-radius: 10px; padding: 20px; z-index: 1000; }
+        .logo2 { width: 50px; margin-bottom: 20px; }
+        .list { list-style: none; padding: 0; }
+        
+        .hero { margin-top: 30px; }
+        .head { max-width: 900px; }
+        .title { font-size: clamp(32px, 5vw, 45px); font-weight: bold; line-height: 1.2; }
+        .icon { width: 40px; height: 40px; margin-top: -5px; }
+        
+        .main { padding: 40px 0; }
+        .leftimg, .rightimg { position: absolute; height: 400px; width: auto; z-index: 0; }
+        .leftimg { left: -100px; top: 50%; transform: translateY(-50%); }
+        .rightimg { right: -100px; top: 50%; transform: translateY(-50%); }
+        .badge { width: 372px; height: 372px; border-radius: 50%; background: radial-gradient(circle, #fff8e5 0%, #764ba2 90%); display: flex; flex-direction: column; align-items: center; justify-content: center; position: relative; z-index: 1; box-shadow: 0 20px 60px rgba(0,0,0,0.3); }
+        .big { font-size: 80px; font-weight: bold; color: #000; margin: 0; z-index: 2; }
+        .text { font-size: 18px; color: #000; margin: 0; z-index: 2; font-weight: 600; }
+        .pig { position: absolute; bottom: -10px; width: 150px; z-index: 1; }
+        
+        .stats { margin: 40px 0; }
+        .stat { border: 1px solid rgba(255,255,255,0.5); background: rgba(255,255,255,0.15); border-radius: 15px; backdrop-filter: blur(10px); }
+        .num { font-size: 30px; font-weight: bold; margin: 0; color: white; }
+        .label { font-size: 16px; color: rgba(255,255,255,0.9); }
+        
+        .games { margin: 40px 0; }
+        .content-wrapper { background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); border: 2px solid rgba(255,255,255,0.3); border-radius: 20px; padding: 60px 20px; }
+        .content { max-width: 600px; margin: 0 auto; }
+        .small { width: 30px; height: 70px; }
+        .htitle { font-size: clamp(28px, 4vw, 40px); font-weight: bold; }
+        .desc { font-size: 18px; color: rgba(255,255,255,0.95); }
+        .tags { margin-top: 20px; }
+        .tag { font-size: 13px; font-weight: 600; background: rgba(255,255,255,0.95); color: #333; padding: 8px 14px; border-radius: 20px; display: inline-block; }
+        
+        .center { margin: 50px 0; }
+        .midicon { width: 55px; filter: drop-shadow(0 5px 15px rgba(0,0,0,0.3)); }
+        
+        .partner { margin: 40px 0; }
+        .box { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border: 2px solid rgba(255,255,255,0.3); border-radius: 20px; }
+        .btitle { font-size: clamp(28px, 4vw, 42px); font-weight: bold; line-height: 1.2; }
+        .bdesc { font-size: 18px; color: rgba(255,255,255,0.9); margin: 0; }
+        .bird { width: 100%; max-width: 250px; margin-top: 60px; }
+        
+        .grid { margin: 40px 0; }
+        .card { border: 2px solid rgba(255,255,255,0.3); border-radius: 15px; background: rgba(255,255,255,0.1); backdrop-filter: blur(10px); transition: transform 0.3s; }
+        .card:hover { transform: translateY(-5px); }
+        .circle { width: 60px; height: 60px; border-radius: 50%; background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); display: flex; align-items: center; justify-content: center; }
+        .cardimg { width: 35px; height: 35px; filter: brightness(0) invert(1); }
+        .ctitle { font-size: 22px; font-weight: bold; }
+        .cdesc { font-size: 16px; color: rgba(255,255,255,0.85); }
+        
+        .growth { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border: 2px solid rgba(255,255,255,0.3); border-radius: 20px; }
+        .gtitle { font-size: clamp(28px, 4vw, 42px); font-weight: bold; }
+        .gdesc { font-size: 18px; color: rgba(255,255,255,0.9); margin: 0; }
+        .gimg { width: 100%; max-width: 150px; }
+        
+        @media (max-width: 768px) {
+          .badge { width: 280px; height: 280px; }
+          .big { font-size: 60px; }
+          .text { font-size: 16px; }
+        }
+      
